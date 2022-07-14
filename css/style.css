@@ -1,0 +1,58 @@
+
+*{
+   box-sizing: border-box;
+}
+body {
+  padding: 15px;
+  margin: 0;
+  font-family: sans-serif;
+  min-width: 400px;
+}
+
+input {
+  all: unset;
+  padding: 8px 10px;
+  font-size: 14px;
+  color: #333;
+  border: 1px solid #47a347;
+  margin-bottom: 5px;
+  display: block;
+  width: 97%;
+  letter-spacing: .5px;
+}
+
+input:focus {
+  background-color: #dff1ef;
+} 
+button {
+  all: unset;
+  padding: 8px 10px;
+  background-color: #47a347;
+  border: 1px solid #47a347;
+  color: white;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+button:last-of-type {
+  background-color: transparent;
+  border: 1px solid #47a347;
+  color: #47a347;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+.url-list {
+  margin-top: 15px;
+}
+.url-list li {
+  margin-bottom: 8px;
+  color: #47a347;
+  text-decoration: underline;
+  font-size: 15px;
+  cursor: pointer;
+}
+.url-list li a {
+  color: inherit;
+}
